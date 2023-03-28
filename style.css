@@ -1,0 +1,67 @@
+body {
+    
+    background-size: cover;
+
+    font-size: 20px;
+    margin: 0;
+
+    width: 100%;
+    height: auto;
+    
+    background-color: rgba(165, 75, 179, 0.6);
+    color:white;
+    
+}
+h1 {
+    font-weight: 350;
+    
+}
+.header {
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.container {
+    border-radius: 5px;
+    text-align: left;;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+form {
+    background-color: #5E2B66;
+    padding-left:25px ;
+    padding-right:25px ;
+    padding-top:45px ;
+    padding-bottom:100px ;
+    border-radius: 10px;
+
+}
+
+form *{
+    margin-top: 10px;
+    margin-bottom: 20px;
+   
+}
+
+form select option{
+    margin-top: 10px;
+}
+
+#name-label,#email-label,#number-label,#dropdown {
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    
+}
+#submit{
+    width: 90%;
+    height: 40px;
+    background-color: green;
+    border-style: none;
+    color: white;
+    border-radius: 5px;
+    font-size: larger;
+}
+
